@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import "./Profile.css";
 
 export default function Profile() {
   return (
@@ -20,8 +21,8 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Welcome, My name is{" "}
-              <span className="highlighted-text">Triston</span>
+              Welcome, I'm{" "}
+              <span className="highlighted-text">Triston Golden</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -36,7 +37,7 @@ export default function Profile() {
                     1000,
                     "HTML, CSS, Javascript 🖼",
                     1000,
-                    "GA TECH Coding Bootcamp Graduate 🎓",
+                    "GA TECH Bootcamp Grad 🎓",
                     1000,
                     "MERN Stack Developer 📚",
                     1000,
