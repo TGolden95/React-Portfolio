@@ -7,12 +7,14 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://www.linkedin.com/in/triston-golden-95111ab7/">
-              <i className="fa fa-linkedin-square"></i>
-            </a>
-            <a href="https://github.com/TGolden95">
-              <i className="fa fa-github-square"></i>
-            </a>
+            <div className="colz-icon">
+              <a href="https://www.linkedin.com/in/triston-golden-95111ab7/">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+              <a href="https://github.com/TGolden95">
+                <i className="fa fa-github-square"></i>
+              </a>
+            </div>
           </div>
 
           <div className="profile-details-name">
@@ -51,7 +53,13 @@ export default function Profile() {
               {""}
               Employable!{" "}
             </button>
+            <a href="Golden-Resume.pdf" download="Golden Golden-Resume.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
+            </a>
           </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
