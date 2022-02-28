@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Full stack web developer knowledgable in MERN stack, HTML, CSS, and Javascript.",
+      "Hello! My name is Triston Golden for those of you visiting this webpage. As you read along throughout this webpage I will continue to open up about myself and share with you some details that will help you get to know me better. With that being said, I welcome you to learn a little about me. I'm the oldest of five children, which needless to say I try my best to lead by example. I graduated from Shiloh High School in Gwinnett county. I did wrestling and football year round. I got my first real job at my local McDonald's. During my college days I loved to play Madden and NBA 2K as well as play recreational basketball at my local LA Fitness. At one point I was a top 1,500 Madden NFL player in the world on the playstation 4. I can't forget about NBA 2K though! I very much enjoyed creating my own myplayer build, as well as being yelled at by 3rd graders about how bad I was at the game.",
     highlights: {
       bullets: [
         "Full Stack web development",
@@ -39,7 +39,7 @@ export default function AboutMe(props) {
   return (
     <div className="about-me-container screen-container" id={props.id || ""}>
       <div className="about-me-parent">
-        <ScreenHeading title={"AboutMe"} subHeading={"Why Choose Me?"} />
+        <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
         <div className="about-me-card">
           <div className="about-me-profile"></div>
           <div className="about-me-details">
