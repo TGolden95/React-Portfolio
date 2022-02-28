@@ -12,16 +12,16 @@ router.post("/contact", (req, res) => {
   }
 
   let smtpTransporter = nodemailer.createTransport({
-    service: "Gmail",
+    service: "Yahoo",
     port: 465,
     auth: {
-      user: "edubabadigital@gmail.com",
+      user: "triston_golden@yahoo.com",
       pass: "use-your-correct-password-here",
     },
   });
   let mailOptions = {
     from: data.email,
-    to: "edubabadigital@gmail.com",
+    to: "triston_golden@yahoo.com",
     subject: `message from ${data.name}`,
     html: `
             <h3>Informations<h3/>
@@ -38,7 +38,7 @@ router.post("/contact", (req, res) => {
     try {
       if (error)
         return res.status(400).json({ msg: "Please Fill All The Fields!" });
-      res.status(200).json({ msg: "Thank You For Contacting Ehizeex." });
+      res.status(200).json({ msg: "Thank You For Contacting Triston." });
     } catch (error) {
       if (error) return res.status(500).json({ msg: "There is server error" });
     }
