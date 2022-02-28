@@ -9,6 +9,7 @@
 .profile-parent {
   display: flex;
   align-items: center;
+  color: aliceblue;
 }
 
 .profile-details-name {
