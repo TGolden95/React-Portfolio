@@ -63,25 +63,27 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
-      title: "Password Generator",
+      title: (
+        <a href="https://tgolden95.github.io/Password-Generator/">
+          Password Generator
+        </a>
+      ),
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      sourceCode: "https://github.com/TGolden95/Password-Generator",
-      livePreview: "https://tgolden95.github.io/Password-Generator/",
+        "Helps generate a strong password to aid against everyday hackers!",
     },
     {
-      title: "Day Planner ",
+      title: (
+        <a href="https://tgolden95.github.io/Weekly-Organizer/">Day Planner</a>
+      ),
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
-      sourceCode: "https://github.com/TGolden95/Weekly-Organizer",
-      livePreview: "https://tgolden95.github.io/Weekly-Organizer/",
+        "Allows the user to get more organized and help their day to day routine run smoother!",
     },
     {
-      title: "Project 2 ",
+      title: (
+        <a href="https://cookies-for-coders-mary.herokuapp.com/">Project 2</a>
+      ),
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
-      sourceCode: "https://github.com/TGolden95/Full_Stack_Store",
-      livePreview: "https://cookies-for-coders-mary.herokuapp.com/",
+        "An online ecommerce website for showcasing and selling cookies online!",
     },
   ];
 
