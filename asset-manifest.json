@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e7a3c30.chunk.css",
+    "main.js": "/static/js/main.c5226e32.chunk.js",
+    "main.js.map": "/static/js/main.c5226e32.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.57999003.js",
+    "runtime-main.js.map": "/static/js/runtime-main.57999003.js.map",
+    "static/css/2.68b64559.chunk.css": "/static/css/2.68b64559.chunk.css",
+    "static/js/2.10176768.chunk.js": "/static/js/2.10176768.chunk.js",
+    "static/js/2.10176768.chunk.js.map": "/static/js/2.10176768.chunk.js.map",
+    "static/js/3.ce4a2ef0.chunk.js": "/static/js/3.ce4a2ef0.chunk.js",
+    "static/js/3.ce4a2ef0.chunk.js.map": "/static/js/3.ce4a2ef0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.68b64559.chunk.css.map": "/static/css/2.68b64559.chunk.css.map",
+    "static/css/main.9e7a3c30.chunk.css.map": "/static/css/main.9e7a3c30.chunk.css.map",
+    "static/js/2.10176768.chunk.js.LICENSE.txt": "/static/js/2.10176768.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Poppins-Thin.a61eaf4c.ttf",
+    "static/media/Profile.css": "/static/media/headshot.5a665db6.png",
+    "static/media/mailz.d13d5e32.jpeg": "/static/media/mailz.d13d5e32.jpeg",
+    "static/media/AboutMe.css": "/static/media/me.538a149e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57999003.js",
+    "static/css/2.68b64559.chunk.css",
+    "static/js/2.10176768.chunk.js",
+    "static/css/main.9e7a3c30.chunk.css",
+    "static/js/main.c5226e32.chunk.js"
+  ]
+}
